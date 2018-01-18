@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inmerssion_colombia_activemq_decano", "inmerssion_colombia_activemq_decano.csproj", "{5506DEE6-DB5F-38D7-0FC8-B357E6EE1B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inmerssion_colombia_activemq_decano.Editor", "inmerssion_colombia_activemq_decano.Editor.csproj", "{4C530016-12AF-C7AE-D6C3-62AE23D9B739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5506DEE6-DB5F-38D7-0FC8-B357E6EE1B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5506DEE6-DB5F-38D7-0FC8-B357E6EE1B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5506DEE6-DB5F-38D7-0FC8-B357E6EE1B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5506DEE6-DB5F-38D7-0FC8-B357E6EE1B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C530016-12AF-C7AE-D6C3-62AE23D9B739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C530016-12AF-C7AE-D6C3-62AE23D9B739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C530016-12AF-C7AE-D6C3-62AE23D9B739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C530016-12AF-C7AE-D6C3-62AE23D9B739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

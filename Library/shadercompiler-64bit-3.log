@@ -1,0 +1,28 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-3-4776
+Cmd: getPlatforms
+Cmd: compileSnippet
+  error: 2 plat 1 at (150): Too many math instructions for SM2.0 (66 needed, max is 64). Try #pragma target 3.0\nCompiling Fragment program with SPOT FOG_EXP
+  api=1 type=1 insize=5990 outsize=0 kw=SPOT FOG_EXP pd= ok=0
+Cmd: compileSnippet
+  api=4 type=0 insize=1151 outsize=933 kw= pd= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1151 outsize=1615 kw=FOG_EXP pd= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1151 outsize=518 kw= pd= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1151 outsize=111 kw=FOG_EXP pd= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1151 outsize=1129 kw=FOG_EXP pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (40): 'tex2Dproj': no matching 2 parameter intrinsic function; Possible intrinsic functions are: tex2Dproj(sampler2D, float4|half4|min10float4|min16float4)\nCompiling Vertex program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=0 insize=1623 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (40): 'tex2Dproj': no matching 2 parameter intrinsic function; Possible intrinsic functions are: tex2Dproj(sampler2D, float4|half4|min10float4|min16float4)\nCompiling Fragment program
+Platform defines: UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE
+  api=8 type=1 insize=1623 outsize=0 kw= pd=UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=0
+Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
+
+
+Quitting shader compiler process

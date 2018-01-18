@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inmerssion_colombia_activemq", "inmerssion_colombia_activemq.csproj", "{088E6692-EE45-1C22-64EA-361CED54A7B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inmerssion_colombia_activemq.Editor", "inmerssion_colombia_activemq.Editor.csproj", "{5A97D1F0-C6D0-F7D7-0501-4DB5582540A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088E6692-EE45-1C22-64EA-361CED54A7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088E6692-EE45-1C22-64EA-361CED54A7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088E6692-EE45-1C22-64EA-361CED54A7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088E6692-EE45-1C22-64EA-361CED54A7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A97D1F0-C6D0-F7D7-0501-4DB5582540A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A97D1F0-C6D0-F7D7-0501-4DB5582540A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A97D1F0-C6D0-F7D7-0501-4DB5582540A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A97D1F0-C6D0-F7D7-0501-4DB5582540A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

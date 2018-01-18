@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene name="decano" nextScene="ninguna">
+  <event id="a1" agent="Businessman">
+    <animation>talking</animation>
+  </event>
+	<event id="intro1" agent="Businessman">
+    <dialog>
+      Bienvenido mi nombre es Adrian y soy el decano virtual creado 
+      en la facultad de Ingenieria de Sistemas. Cual es tu nombre?
+    </dialog>
+  </event>
+  <event id="r1">
+    <response>
+      <grammar jump_id="a2">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a2" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="intro2" agent="Businessman">
+    <dialog>
+      Esto mas que una entrevista, es un espacio para que charlemos acerca de lo que 
+      esperas de la carrera y tus intenciones iniciales, estas de acuerdo?
+    </dialog>
+  </event>
+  <event id="r2">
+    <response>
+      <grammar jump_id="a3">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a3" agent="Businessman">
+    <animation>standing_arguing</animation>
+  </event>
+  <event id="intro3" agent="Businessman">
+    <dialog>
+      Tambien es un espacio importante para contarte las cosas que hacemos 
+      en nuestro programa, te parece bien?
+    </dialog>
+  </event>
+  <event id="r3">
+    <response>
+      <grammar jump_id="a4">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a4" agent="Businessman">
+    <animation>talking</animation>
+  </event>
+  <event id="pre1" agent="Businessman">
+    <dialog>
+    Empecemos porque me cuentes, de donde eres egresado?  
+    </dialog>
+  </event>  
+  	<event id="r4">
+    <response>
+      <grammar jump_id="a6">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+	</event>
+	<event id="a6" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+	<event id="pre2" agent="Businessman">
+    <dialog>en donde queda tu colegio?</dialog>
+  </event>
+	<event id="r6">
+		<response>
+			<grammar jump_id="a7">
+				<item>wildcard</item>
+			</grammar>
+		</response>
+	</event>
+  <event id="a7" agent="Businessman">
+    <animation>standing_cast_spell</animation>
+  </event>
+  <event id="pre3" agent="Businessman">
+    <dialog>Desde que saliste del colegio a que te has dedicado?</dialog>
+  </event>
+  <event id="r7">
+    <response>
+      <grammar jump_id="a8">
+        <item>a trabajar</item>
+        <item>trabajar</item>
+      </grammar>
+      <grammar jump_id="a9">
+        <item>a estudiar</item>
+        <item>estudiar</item>
+      </grammar>
+      <grammar jump_id="a10">
+        <item>nada</item>
+        <item>ayudo a mi papa</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a8" agent="Businessman">
+    <animation>standing_cast_spell</animation>
+  </event>
+  <event id="pre3a" agent="Businessman">
+    <dialog>En que trabajas?</dialog>
+  </event>
+  <event id="r8">
+    <response>
+      <grammar jump_id="a10">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a9" agent="Businessman">
+    <animation>standing_arguing</animation>
+  </event>
+  <event id="pre3b" agent="Businessman">
+    <dialog>Que estas estudiando?</dialog>
+  </event>
+  <event id="r9">
+    <response>
+      <grammar jump_id="a10">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a10" agent="Businessman">
+    <animation>talking</animation>
+  </event>
+  <event id="pre4" agent="Businessman">
+    <dialog>Donde vives?</dialog>
+  </event>
+  <event id="r10">
+    <response>
+      <grammar jump_id="a11">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a11" agent="Businessman">
+    <animation>talking</animation>
+  </event>
+  <event id="pre5" agent="Businessman">
+    <dialog>Como te desplazas a la universidad?</dialog>
+  </event>
+  <event id="r11">
+    <response>
+      <grammar jump_id="a12">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a12" agent="Businessman">
+    <animation>talking</animation>
+  </event>
+  <event id="pre6" agent="Businessman">
+    <dialog>Quisiera saber que conoces o que te hand dicho de la universidad?</dialog>
+  </event>
+  <event id="r12">
+    <response>
+      <grammar jump_id="a13">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a13" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="info1" agent="Businessman">
+    <dialog>La Universidad Antonio Nariño es una Universidad que ya tiene 
+            mas de 40 años, lo sabias?
+    </dialog>
+  </event>
+  <event id="r13">
+    <response>
+      <grammar jump_id="a14">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a14" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="info2" agent="Businessman">
+    <dialog>
+      Contamos con 5 sedes en Bogota y 32 a nivel nacional.
+      Esta es una universidad que ya tiene una trayectoria bastante grande, 
+      tiene presencia a nivel nacional.
+      Has tenido oportunidad de conocer nuestras instalaciones?
+    </dialog>
+  </event>
+  <event id="r14">
+    <response>
+      <grammar jump_id="a15">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a15" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="info3" agent="Businessman">
+    <dialog>
+      El programa de pregrado de Ingenieria de Sistemas opera en la Sede Sur
+      que es donde nos encontramos actualmente.
+      En Bogota tambien funcionan las sedes Iberica, Circunvalar, y Federman.
+      ¿Conoces la sede Federmán?
+    </dialog>
+  </event>
+  <event id="r15">
+    <response>
+      <grammar jump_id="a16">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a16" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="info4" agent="Businessman">
+    <dialog>
+      Alla tenemos la especializacion y la maestria en ingenieria de sistemas.
+      Nuestra universidad cada vez es mas reconocida por  
+      la calidad que tiene de sus docentes, ¿sabes por que?
+    </dialog>
+  </event>
+  <event id="r16">
+    <response>
+      <grammar jump_id="a17">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a17" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="info5" agent="Businessman">
+    <dialog>
+      Porque somos pioneros en la contratacion de profesores
+      de la mas alta formacion, aqui vas a encontrar profesores
+      con especializaciones, maestrias y doctorados  que
+      trabajaran contigo en el aula de clase.
+      por que quieres estudiar Ingeniería de Sistemas?
+    </dialog>
+  </event>
+  <event id="r17">
+    <response>
+      <grammar jump_id="a18">
+        <item>wildcard</item>
+      </grammar>
+    </response>
+  </event>
+  <event id="a18" agent="Businessman">
+    <animation>talking_1</animation>
+  </event>
+  <event id="fin" agent="Businessman">
+    <dialog>-Entonces bienvenido y espero que empieces ahoritica.</dialog>
+  </event>
+
+  <event id="end" agent="Businessman"><animation>yelling</animation></event>
+</scene>
